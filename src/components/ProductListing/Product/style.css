@@ -1,0 +1,49 @@
+.product {
+  width: 300px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background: #eef2f7;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 1);
+  transition: all 200ms linear;
+  animation: fadeIn 1000ms forwards;
+}
+
+.product:hover {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4);
+}
+
+.product-title {
+  height: 75px;
+  max-height: 75px;
+  text-align: center;
+}
+
+.product-img {
+  width: 300px;
+}
+
+.product-desc {
+  margin: 5px 0;
+}
+
+.product-price {
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,28 @@
+.product-listing {
+  max-width: 1200px;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background: #eef2f7; */
+  
+  /* border-radius: 4px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .5); */
+}
+
+.shopping-cart-icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shopping-cart-item-count {
+  font-family: 'Zilla Slab';
+  margin: 0 5px;
+}
+
+.shopping-cart {
+  font-size: 1.5em;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400|Zilla+Slab');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+
+body {
+        line-height: 1;
+}
+
+ol, ul {
+        list-style: none;
+}
+
+blockquote, q {
+        quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  background: #222d49;
+  background: url(/trianglify.png) center center no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Zilla Slab';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.App {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.button:hover, .button:active {
+  outline: 0;
+}
+
+.button-green, .checkout-button {
+  background: #fff;
+  color: #3ecf8e;
+  border: 2px solid #3ecf8e;
+  transition: all 200ms linear;
+}
+
+.button-green:hover, .checkout-button:hover {
+  background: #3ecf8e;
+  color: #fff;
+}
+
+.button-green:hover .product-price:after {
+  font-family: 'Font Awesome 5 Free';
+  content: ' \f07a';
+}
+
+.button-green:hover:after {
+  font-family: 'Zilla Slab';
+  content: 'Add to cart';
+  padding: 0 5px;
+}
+
+.cr {
+  width: 200px;
+  padding: 7px 16px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+  background: #6772e5;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .5);
+  z-index: 9999;
+}
+
+.cr-sticky {
+  position: fixed;
+}
+
+/* Positions */
+
+.cr-top    { top: 35px; }
+.cr-bottom { bottom: 25px; }
+.cr-left   { left: -50px; }
+.cr-right  { right: -50px; }
+
+/* Rotations */
+
+.cr-top.cr-left,
+.cr-bottom.cr-right {
+  transform: rotate(-45deg);
+}
+
+.cr-top.cr-right,
+.cr-bottom.cr-left {
+  transform: rotate(45deg);
+}
