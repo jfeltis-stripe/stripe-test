@@ -133,7 +133,7 @@ class ProductListing extends React.Component {
         />
         <Product
           title="Invertocat 2.0"
-          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/invertocat_600x600.png?v=1520399398"
+          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/Invertocat_2.0_Mock_GithubShop-M1_480x480_crop_center.jpg?v=1563300713"
           imgalt="Invertocat 2.0"
           price="25"
           description="Invertocat is in stealth mode and is ready for primetime, now with a stylish, more visible front logo."
@@ -141,7 +141,7 @@ class ProductListing extends React.Component {
         />
         <Product
           title="Arctocat Shirt"
-          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/arctocat_600x600.png?v=1520399218"
+          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/Arctocat_Mock_GithubShop-M1_480x480_crop_center.jpg?v=1563298117"
           imgalt="Arctocat Shirt"
           price="25"
           description="Pay homage to apex hardware hackers and the Invertocat while keeping the shrapnel at a safe distance with our Arctocat tee in navy."
@@ -149,7 +149,7 @@ class ProductListing extends React.Component {
         />
         <Product
           title="I [octocat] Code 2.0 Shirt"
-          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/i-octocat-code_600x600.png?v=1520399372"
+          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/I__octocat__Code_2.0_Mock_GithubShop-M1_600x600.jpg?v=1563297789"
           imgalt="I [octocat] Code 2.0 Shirt"
           price="25"
           description="In the beginning, there was the I :octocat: code shirt. Games were changed, paradigms were shifted, and codes were octocatted."
@@ -157,7 +157,7 @@ class ProductListing extends React.Component {
         />
         <Product
           title="GitHub Username Shirt"
-          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/username_indigo-front_600x600.png?v=1520399636"
+          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/Github_Username_Mock_GithubShop-Olive_M1_480x480_crop_center.jpg?v=1563300312"
           imgalt="GitHub Username Shirt"
           price="25"
           description="Do you wish you could turn your clothing into a personal billboard for your GitHub username or project name? Now you can share your open source love right on your back!"
@@ -173,7 +173,7 @@ class ProductListing extends React.Component {
         />
         <Product
           title="GitHub Drip Tee"
-          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/drip-black_large.png?v=1520399623"
+          imgsrc="https://cdn.shopify.com/s/files/1/0051/4802/products/Github_Drip_Mock_GithubShop-White_M_600x600.jpg?v=1563298413"
           imgalt="GitHub Drip Tee"
           price="25"
           description="Stand out from the crowd and make your wardrobe glow a little brighter with this 90s-inspired tee."
